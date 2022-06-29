@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Inversment Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+        <h3>Inversment Calculator</h3>
+
+        <div class="investyield">
+            <p id="yield">$0.00</p>
+        </div>
+        
+        <div id="investyield">
+            <span id="yield"></span>
+            <span id="yieldamount"></span>
+        </div>
+    
+      
+        <!-- form -->
+        <form action="">
+            <p>How much are you inversting</p>
+            <input type="text" id="investamt" placeholder="Investment Amount">
+            <p>How many years will you be investing?</p>
+            <select name="" id="investyr">
+                <option disabled selected value="0">How many years?</option>
+                <option value="1">1 year</option>
+                <option value="2">2 year</option>
+                <option value="3">3 year</option>
+                <option value="4">4 year</option>
+                <option value="5">5 year</option>
+                <option value="6">6 year</option>
+                <option value="7">7 year</option>
+                <option value="8">8 year</option>
+                <option value="9">9 year</option>
+                <option value="10">10 year</option>
+            </select>
+            <p>What is the interest rate?</p>
+            <input type="text" id="intrate" placeholder="Interest rate">
+        </form>
+
+
+        <br>
+        <br>
+        <button class="button" type="button" id="calcualte">CALCULATE</button>
+        
+
+    </div>
+    <script src="./style.js"></script>
+</body>
+</html>
